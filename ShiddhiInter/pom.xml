@@ -1,0 +1,159 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ShiddhiInter</groupId>
+  <artifactId>ShiddhiInter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+				  <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+				<dependency>
+				    <groupId>com.google.guava</groupId>
+				    <artifactId>guava</artifactId>
+				    <version>11.0.2</version>
+				</dependency>
+				  
+  
+  				<!-- https://mvnrepository.com/artifact/io.siddhi/siddhi-core -->
+						<dependency>
+						    <groupId>io.siddhi</groupId>
+						    <artifactId>siddhi-core</artifactId>
+						    <version>5.0.0</version>
+						</dependency>
+
+				<!-- https://mvnrepository.com/artifact/io.siddhi/siddhi-query-api -->
+						<dependency>
+						    <groupId>io.siddhi</groupId>
+						    <artifactId>siddhi-query-api</artifactId>
+						    <version>5.0.0</version>
+						</dependency>
+
+				<!-- https://mvnrepository.com/artifact/io.siddhi/siddhi-query-compiler -->
+						<dependency>
+						    <groupId>io.siddhi</groupId>
+						    <artifactId>siddhi-query-compiler</artifactId>
+						    <version>5.0.0</version>
+						</dependency>
+
+				<!-- https://mvnrepository.com/artifact/io.siddhi/siddhi-annotations -->
+						<dependency>
+						    <groupId>io.siddhi</groupId>
+						    <artifactId>siddhi-annotations</artifactId>
+						    <version>5.0.0</version>
+						</dependency>
+						
+						<!--to run the test-->
+														
+										<!-- https://mvnrepository.com/artifact/org.wso2.extension.siddhi.store.mongodb/siddhi-store-mongodb -->
+								<dependency>
+								    <groupId>org.wso2.extension.siddhi.store.mongodb</groupId>
+								    <artifactId>siddhi-store-mongodb</artifactId>
+								    <version>2.0.0</version>
+								</dependency>
+
+													      
+				      <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+								<dependency>
+								    <groupId>org.testng</groupId>
+								    <artifactId>testng</artifactId>
+								    <version>6.14.3</version>
+								    <scope>test</scope>
+								</dependency>
+								
+								 <!-- Kafka Intergeration  -->
+					 
+								 <dependency>
+							            <groupId>org.apache.kafka</groupId>
+							            <artifactId>kafka-clients</artifactId>
+							            <version>0.10.2.0</version>
+							        </dependency>
+							        
+							      <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+									<dependency>
+									    <groupId>mysql</groupId>
+									    <artifactId>mysql-connector-java</artifactId>
+									    <version>5.1.6</version>
+									</dependency>
+									
+									<dependency>
+										    <groupId>org.wso2.carbon.datasources</groupId>
+										    <artifactId>org.wso2.carbon.datasource.core</artifactId>
+										    <version>1.1.4</version>
+										</dependency>
+									<dependency>
+										    <groupId>commons-logging</groupId>
+										    <artifactId>commons-logging</artifactId>
+										    <version>1.2</version>
+										</dependency>
+																										      
+							        
+						<!-- https://mvnrepository.com/artifact/org.wso2.extension.siddhi.store.rdbms/coverage-reports -->
+									<dependency>
+									    <groupId>org.wso2.extension.siddhi.store.rdbms</groupId>
+									    <artifactId>coverage-reports</artifactId>
+									    <version>5.1.2</version>
+									    <type>pom</type>
+									</dependency>
+
+																    
+							        
+								<!-- https://mvnrepository.com/artifact/org.json/json -->
+									<dependency>
+									    <groupId>org.json</groupId>
+									    <artifactId>json</artifactId>
+									    <version>20180813</version>
+									</dependency>
+									
+									<!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
+									<dependency>
+									    <groupId>com.sun.jersey</groupId>
+									    <artifactId>jersey-core</artifactId>
+									    <version>1.18.3</version>
+									</dependency>
+							<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+<dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>guava</artifactId>
+    <version>11.0</version>
+</dependency>
+							
+							<dependency>
+    <groupId>org.mongodb</groupId>
+    <artifactId>mongo-java-driver</artifactId>
+    <version>3.4.1</version>
+</dependency>
+																			
+									    <dependency>
+																      <groupId>junit</groupId>
+																      <artifactId>junit</artifactId>
+																      <version>3.8.1</version>
+																      <scope>test</scope>
+																    </dependency>
+																   <dependency>
+																  <groupId>com.google.firebase</groupId>
+																  <artifactId>firebase-admin</artifactId>
+																  <version>5.2.0</version>
+																</dependency>
+																										      
+  </dependencies>
+  
+		  <properties>
+		       
+		        <siddhi.version>5.0.0-SNAPSHOT</siddhi.version>
+		        <testng.version>6.14.3</testng.version>
+		           
+		  </properties>
+    
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
