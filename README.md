@@ -1,2 +1,2 @@
 # Siddhi_Submission
-Siddhi intergeration with kafka and some quesries
+Siddhi intergeration with kafka and some queries
